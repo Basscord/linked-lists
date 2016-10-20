@@ -1,0 +1,20 @@
+{  
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    no-trailing-spaces: "warn",
+    semi: ["error", "always"],
+    space-before-blocks: "warn",
+    no-console: "off",
+    brace-style: ["warn", "1tbs"],
+    camelcase: "warn",
+    keyword-spacing: "warn",
+    space-infix-ops: "error"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended"
+}
